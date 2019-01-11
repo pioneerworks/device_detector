@@ -10,6 +10,32 @@
   device: 'smartphone'
   model: 'StarTrail'
 
+# Clover
+Clover:
+  regex: '(?:C100|C200|C201|C300|C301|C302U|C400|C401|C401U|C500) Build'
+  device: 'tablet'
+  models:
+    - regex: 'C100'
+      model: 'Clover C100'
+    - regex: 'C200'
+      model: 'Clover C200'
+    - regex: 'C201'
+      model: 'Clover C201'
+    - regex: 'C300'
+      model: 'Clover C300'
+    - regex: 'C301'
+      model: 'Clover C301'
+    - regex: 'C302'
+      model: 'Clover C302U'
+    - regex: 'C400'
+      model: 'Clover C400'
+    - regex: 'C401'
+      model: 'Clover C401'
+    - regex: 'C401U'
+      model: 'Clover C401U'
+    - regex: 'C500'
+      model: 'Clover C500'
+
 # SFR
 SFR:
   regex: 'StarShine|StarTrail|STARADDICT|StarText|StarNaute|StarXtrem|StarTab'
@@ -825,6 +851,9 @@ Asus:
       device: 'tablet'
     - regex: 'Slider SL101'
       model: 'Eee Pad Slider SL101'
+      device: 'tablet'
+    - regex: 'Chromebook Flip C302'
+      model: 'Chromebook Flip C302'
       device: 'tablet'
 
     # explicit phablet models
@@ -2308,7 +2337,7 @@ Goly:
 
 # Google
 Google:
-  regex: 'Nexus|GoogleTV|Glass|CrKey[^a-z0-9]|Pixel Build|Pixel (?:XL|C|2|2 XL) Build'
+  regex: 'Nexus|GoogleTV|Glass|CrKey[^a-z0-9]|Pixel Build|Pixel (?:XL|C|2|2 XL) Build|Pixel (?:XL|C|2|2 XL)'
   device: 'smartphone'
   models:
     - regex: 'Glass'
