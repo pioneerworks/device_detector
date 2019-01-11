@@ -36,6 +36,14 @@ Clover:
     - regex: 'C500'
       model: 'Clover C500'
 
+# Poynt
+Poynt:
+  regex: 'Poynt'
+  device: 'tablet'
+  models:
+    - regex: '((?:Poynt-)[^;/]*) Build'
+      model: '$1'
+
 # SFR
 SFR:
   regex: 'StarShine|StarTrail|STARADDICT|StarText|StarNaute|StarXtrem|StarTab'
