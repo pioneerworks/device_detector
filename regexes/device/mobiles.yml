@@ -15,33 +15,15 @@ Clover:
   regex: '(?:C100|C200|C201|C300|C301|C302U|C400|C401|C401U|C500) Build'
   device: 'tablet'
   models:
-    - regex: 'C100'
-      model: 'Clover C100'
-    - regex: 'C200'
-      model: 'Clover C200'
-    - regex: 'C201'
-      model: 'Clover C201'
-    - regex: 'C300'
-      model: 'Clover C300'
-    - regex: 'C301'
-      model: 'Clover C301'
-    - regex: 'C302'
-      model: 'Clover C302U'
-    - regex: 'C400'
-      model: 'Clover C400'
-    - regex: 'C401'
-      model: 'Clover C401'
-    - regex: 'C401U'
-      model: 'Clover C401U'
-    - regex: 'C500'
-      model: 'Clover C500'
+    - regex: '(C100|C200|C201|C300|C301|C302U|C400|C401|C401U|C500)'
+      model: '$1'
 
 # Poynt
 Poynt:
   regex: 'Poynt'
   device: 'tablet'
   models:
-    - regex: '((?:Poynt-)[^;/]*) Build'
+    - regex: 'Poynt-([^;/]*) Build'
       model: '$1'
 
 # SFR
