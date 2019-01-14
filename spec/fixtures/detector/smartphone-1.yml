@@ -1785,15 +1785,15 @@
   os_family: Android
   browser_family: Android Browser
 - 
-  user_agent: "User Agent = okhttp/3.10.0, Source = Device: Google Pixel XL (marlin) Product: marlin ID: 09ee9316e3c494c1Dalvik/2.1.0 (Linux; U; Android 7.1.2; Pixel XL Build/NPG05E)"
+  user_agent: "User Agent = okhttp/3.10.0, Source = Device: Google Pixel XL (marlin) Product: marlin ID: 09ee9316e3c494c1"
   os:
     name: Android
     short_name: AND
-    version: "7.1.2"
+    version: ""
     platform: ""
   client:
     type: browser
-    name: Android Browser
+    name: OkHttp
     short_name: AN
     version: ""
     engine: WebKit
