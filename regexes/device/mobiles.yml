@@ -26,6 +26,14 @@ Poynt:
     - regex: 'Poynt-([^;/]*) Build'
       model: '$1'
 
+# Verifone Carbon
+Verifone Carbon:
+  regex: 'Verifone Carbon-10'
+  device: 'tablet'
+  models:
+    - regex: 'Verifone Carbon-10'
+      model: '10'
+
 # SFR
 SFR:
   regex: 'StarShine|StarTrail|STARADDICT|StarText|StarNaute|StarXtrem|StarTab'
@@ -2327,7 +2335,7 @@ Goly:
 
 # Google
 Google:
-  regex: 'Nexus|GoogleTV|Glass|CrKey[^a-z0-9]|Pixel Build|Pixel (?:XL|C|2|2 XL) Build|Pixel (?:XL|C|2|2 XL)'
+  regex: 'Nexus|GoogleTV|Glass|CrKey[^a-z0-9]|Pixel Build|Pixel (?:XL|C|2|2 XL|3|3 XL) Build|Pixel (?:XL|C|2|2 XL|3|3 XL)'
   device: 'smartphone'
   models:
     - regex: 'Glass'
@@ -2354,8 +2362,12 @@ Google:
       model: 'Pixel XL'
     - regex: 'Pixel 2 XL'
       model: 'Pixel 2 XL'
+    - regex: 'Pixel 3 XL'
+      model: 'Pixel 3 XL'
     - regex: 'Pixel 2'
       model: 'Pixel 2'
+    - regex: 'Pixel 3'
+      model: 'Pixel 3'
     - regex: 'Pixel C'
       device: 'tablet'
       model: 'Pixel C'
